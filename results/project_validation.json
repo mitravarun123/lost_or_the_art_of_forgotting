@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-17",
+  "implemented": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+  ],
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0,
+    "log": "logs/pytest.log"
+  },
+  "software_smoke": "passed",
+  "synthetic_fixtures_are_research": false,
+  "latex_compile": "success",
+  "cifar_download": "interrupted_slow_transfer",
+  "cifar_training": "not_run",
+  "full_five_seed_study": "not_run",
+  "mps_execution": "not_run",
+  "cuda_execution": "not_run",
+  "colab_master_release": {
+    "date": "2026-10-26",
+    "unit_tests_passed": 20,
+    "unit_tests_failed": 0,
+    "figure_format": "PNG only",
+    "default_figure_dpi": 600,
+    "fixture_figure_boundary_flags": 0,
+    "colab_execution": "not run",
+    "cifar_research_execution": "not run"
+  },
+  "revised_pilot_release": {
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "intervention_conditions": 32,
+    "linear_probe_fits": 33,
+    "figures": 8,
+    "figure_dpi": 600,
+    "colab_execution": "not run",
+    "cifar_pilot_execution": "not run"
+  }
+}

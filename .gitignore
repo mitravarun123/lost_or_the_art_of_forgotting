@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+datasets/
+results/*/
+!results/.gitkeep
+*.egg-info/
+paper/*.aux
+paper/*.log
+paper/*.out

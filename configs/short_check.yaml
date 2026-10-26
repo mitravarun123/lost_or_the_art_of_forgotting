@@ -1,0 +1,11 @@
+seeds: [42]
+epochs: 1
+probe_epochs: 2
+neuron_budgets: [0.05]
+edge_budgets: [0.005]
+random_repeats: 1
+analysis_batches: 2
+probe_families: [linear]
+probe_conditions: targeted
+restoration_fractions: [0.5, 1.0]
+bootstrap_repeats: 200

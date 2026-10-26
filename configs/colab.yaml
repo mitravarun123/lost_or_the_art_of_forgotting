@@ -1,0 +1,6 @@
+seeds: [42, 123, 456, 789, 2026]
+batch_size: 128
+analysis_batches: null
+probe_conditions: all
+probe_families: [linear, nonlinear]
+experiments: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]

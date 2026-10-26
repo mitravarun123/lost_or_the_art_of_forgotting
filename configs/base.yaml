@@ -1,0 +1,20 @@
+version: 1
+seeds: [42, 123, 456, 789, 2026]
+split_seed: 314159
+batch_size: 128
+epochs: 50
+patience: 8
+learning_rate: 0.001
+weight_decay: 0.01
+clip: 1.0
+neuron_budgets: [0.01, 0.05, 0.10, 0.20, 0.40]
+edge_budgets: [0.001, 0.005, 0.01, 0.02, 0.05, 0.10]
+random_repeats: 5
+analysis_batches: null
+probe_epochs: 50
+probe_patience: 8
+probe_families: [linear, nonlinear]
+probe_conditions: all
+restoration_fractions: [0.25, 0.5, 1.0]
+bootstrap_repeats: 2000
+experiments: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]

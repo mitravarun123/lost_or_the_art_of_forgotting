@@ -1,0 +1,9 @@
+seeds: [42]
+batch_size: 64
+neuron_budgets: [0.05, 0.20]
+edge_budgets: [0.005, 0.02]
+random_repeats: 2
+analysis_batches: 4
+probe_families: [linear]
+probe_conditions: targeted
+experiments: [e1, e2, e3, e4, e5, e6, e7, e10]

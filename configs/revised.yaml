@@ -1,0 +1,24 @@
+study_name: revised_one_seed_pilot
+seeds: [42]
+batch_size: 128
+epochs: 30
+patience: 5
+neuron_layers: [2]
+edge_layers: [3]
+neuron_methods: [selective, random]
+edge_methods: [high, random]
+neuron_budgets: [0.10, 0.40]
+edge_budgets: [0.10, 0.40]
+random_repeats: 3
+analysis_batches: null
+circuit_extractions: []
+probe_epochs: 20
+probe_patience: 4
+probe_layers: [2]
+probe_families: [linear]
+probe_conditions: all
+restoration_mode: neuron_patching
+restoration_fractions: []
+bootstrap_repeats: 500
+report_mode: revised
+experiments: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]

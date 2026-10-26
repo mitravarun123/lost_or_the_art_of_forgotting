@@ -1,0 +1,15 @@
+{
+  "python": "3.10.9 (v3.10.9:1dd9be6584, Dec  6 2022, 14:37:36) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-13.3-arm64-arm-64bit",
+  "packages": {
+    "torch": "2.11.0",
+    "torchvision": "0.16.1",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "pandas": "2.0.3",
+    "matplotlib": "3.8.0",
+    "PyYAML": "6.0.3",
+    "pytest": "9.1.1"
+  }
+}

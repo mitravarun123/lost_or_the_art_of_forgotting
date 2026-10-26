@@ -1,0 +1,6 @@
+{
+  "status": "success",
+  "compiler": "Codex desktop built-in LaTeX compiler",
+  "initial_attempt": "timeout downloading first-use TeX dependencies",
+  "retry": "success"
+}
